@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    //const roll = [1, 2, 'jew', 'boona', 'himler', 'bad show', 6, 'habour', 'Auto ambros',49]
+    // console.log(roll)
+    // for(i=0;i<roll.length;i++){
+    //     console.log(i,fruits[i]);
+    // }
+    
+    // for (movie of roll){
+    //     console.log(movie)
+    // }
+     
+    /*const lig = [1,2,3,4,5,6,7,8,9]
+    const result = []
+    for(gig of lig){
+        console.log(gig)
+        result.push(gig*2)
+        //console.log(result)
+    }
+    console.log(result)*/
+
+
+
+    const double = (numbers) =>  {
+        let result = [] 
+        let result2 = [] 
+        for (const num of numbers) {
+            result.push(num * 2) ;
+            result2.push(num **   2) ;
+        }  
+        return result ;
+        return result2;
+    }
+    console.log(double([1,2,3,4,5,6,7]))
+
+</script>
+<script>
+  const lettercount =  (phrase)=>{
+     
+    const result = 0;
+    for(w in phrase){
+        //amature way of doing it
+        console.log(Number(w) +1);
+        const result = Number(w)+1 ;
+         
+    }
+    return {result : result};
+  }
+  const phrase = prompt("Enter your phrase")
+  //const phrase = "If hitler was a marata then deshmuk could be related to him."; 
+  lettercount(phrase);
+  console.log("The number of words in the sentance:",phrase.length);
+
+</script>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        const arc =[1,4,5]
+        const result = arc.reduce(function(a,b){
+            return a+b
+        })
+        console.log(result)
+        const actors =[
+            {name:'vincent',networth:20000},
+            {name:'flint',networth:300},
+            {name:'joe',networth:40000}
+        ]
+        console.log(actors.reduce((a,b)=>a+b.networth,0))
+
+        const actors3 =()=>{
+
+        }
+
+        let c=[324,234,12,3,4,5235]
+        c.sort((a,b)=>{
+            return b-a
+        })
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

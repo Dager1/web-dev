@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    const filter = (inputArray,compNum) =>{
+        let result = [];
+        for ( const l of inputArray){
+        if (l>compNum){
+            result.push(l);
+
+        }
+        }
+         return result;
+
+        }
+        console.log(filter([1,2,3,4,5,6,7,8,9,],4))
+
+// shorter version of the above code
+        const mums = [1,2,3,5,6,7,89]
+        console.log(mums.filter(mums => mums >3))
+//filter using an array of objects
+        const actors =[
+            {name:'vincent',networth:20000},
+            {name:'flint',networth:300},
+            {name:'joe',networth:4000}
+        ]
+        console.log(actors.filter(actor => actor.networth > 300))        
+
+
+    
+</script>
+</head>
+<body>
+    
+</body>
+</html>

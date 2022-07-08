@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+      function myNameIs(){
+        console.log("Frank");
+      }
+      function myNameIs2(name) {
+        t = `This ${name} can start a fire `;
+        console.log(t);
+      }
+      
+      myNameIs();
+      myNameIs2('flint');
+
+      function add(a,b){
+        return a+b;
+      }
+      ti = add(3, 6)
+      console.log(ti)
+
+
+      function biller(bill,tip) { 
+        tipper =tip /100;
+        mul = bill * tipper ;
+        tip = console.log('The tip is' ,mul);
+        total = add(bill,mul);
+        // p= console.log('The total cost',total);
+        // alert('The tip is'+mul)
+        return total;
+        }
+      console.log(biller(300,20))
+
+      //ES6
+      //Arrow function
+      //arrow function explicet return
+      let sum = (a,b) => {
+        return a+b;
+      }
+      tim=sum(5,2);
+      console.log(tim)  
+      
+      //arrow function inplicet return
+      const sum2 = (a,b) => a+b;
+      console.log(sum2(13,4));
+
+      //subration
+      const sub = (a,d) => a-d;
+      console.log(6-4);
+
+      //Divsion
+      const div = (b,c)=> b/c  ;
+      console.log(div(5,2))
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

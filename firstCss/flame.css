@@ -1,0 +1,30 @@
+
+    #kum{
+        color:rgb(171, 253, 17);
+        text-align: center;
+    }
+     #yam h1 a {
+        color:aqua;
+    }
+    #yam h1 a:hover{
+        color:brown
+
+    }
+    #fam a{
+        color:aquamarine;
+        background-color: blanchedalmond;
+        width:5in;
+        height:5in;
+        border:5in;
+
+    }
+    .flexman{
+        display: flex;
+    }
+    .flex-m1{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border:3px soild black;
+        background-color: blueviolet;
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <script>
+
+        const car= {
+            name : "farrie",
+            color : "blue"
+        }
+         console.log(car.name)
+
+         // bracket
+         console.log(car['color'])
+         // can do it using brackets  
+         car.number =' KAM 2367'
+         console.log(car)
+        </script>
+        <script>
+            const intro= (name , shirt) =>{
+                const prop= {
+                    name : name,
+                    shirt : shirt,
+                    asset : 10000,
+                    liabilit : 3000,
+                    networth : function(){
+                        return this.asset - this.liabilit
+                    }
+                }
+
+                const intmo= ` I my name is ${prop.name} and I am wearing a ${prop.shirt}  my current net worth is ${prop.networth()} USD`
+                return intmo
+            }
+            console.log(intro('Arun', "green"))
+
+
+
+
+
+
+        </script>
+</head>
+<body}
+    
+</body>
+</html>

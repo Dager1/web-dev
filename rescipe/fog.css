@@ -1,0 +1,38 @@
+.cam{
+    font-family: Amatic SC;
+    text-align: center;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+#aa{
+    border-radius: 50%;
+    height:700px;
+    width: 700px;
+}
+#ab{
+    border-radius: 50%;
+    width: 700px;;
+    height: 700px;
+    display: block;
+    margin-left:relative;
+    margin-right:relative;
+}
+h2{
+    text-align: center;
+    border: 5px solid black;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:1000px;
+    margin-right:1000px;
+}
+.flexman{
+    display: flex;
+    justify-content:space-between;
+}
+.flex-m1{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border:3px soild black;
+    background-color: blueviolet;
+}

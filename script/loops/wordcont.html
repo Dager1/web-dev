@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     const wordcont = (phase) => {
+        let word = {}
+        phases=phase.split(' ')
+        for(i of phases){
+            //console.log(i)
+            if(i in word){
+                word[i]++;
+            }
+            else{
+                word[i]=1;
+            }
+        }
+        return word
+
+     }
+     console.log(wordcont("this wan is going to climbe the highest peak and is on his way to meet us."))
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
